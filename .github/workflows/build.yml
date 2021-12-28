@@ -1,0 +1,14 @@
+name: Build
+on:
+  push:
+    branches:
+      - main
+jobs:
+  checkout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+  git-version:
+    runs-on: ubuntu-latest
+    steps:
+      - run: git --version
