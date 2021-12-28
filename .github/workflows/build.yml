@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
   git-version:
+    needs: checkout
     runs-on: ubuntu-latest
     steps:
       - run: |
