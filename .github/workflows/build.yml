@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          git --version
-          pwd
-          ls -l
-          cat /etc/*-release
+          touch test.txt
+          git status
+          ls
