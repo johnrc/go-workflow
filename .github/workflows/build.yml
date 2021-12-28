@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        git --version
-        pwd
-        ls -l
-        cat /etc/*-release
+          git --version
+          pwd
+          ls -l
+          cat /etc/*-release
